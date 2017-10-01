@@ -49,3 +49,26 @@ nchar(books)
 long.titles<-books[c(FALSE,TRUE,TRUE,FALSE,FALSE,FALSE)]
 long.titles
 
+#PART 3 SQUARES
+
+numbers<-(1:201)
+numbers
+
+squared.numbers<-function(x){x^2}
+squared.numbers(numbers)
+
+squared.mean<-mean(squared.numbers(numbers))
+squared.mean
+
+square.root<-function(x)
+{
+  round(sqrt(x),3)
+  }
+square.root.squared.numbers<-square.root(numbers)
+square.root.squared.numbers
+
+square.match<-numbers == square.root.squared.numbers
+which(square.match)
+
+
+
