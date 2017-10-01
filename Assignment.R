@@ -1,0 +1,4 @@
+#THIS SCRIPT IS FOR ASSIGNMENT 1 FOR LIS 4210
+
+my.age<-31
+my.age
