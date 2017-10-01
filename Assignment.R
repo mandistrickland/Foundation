@@ -29,3 +29,23 @@ intro.e.count
 txt<-"Hello, I'm Mandi And I'm 31 Years Old."
 str_count(tolower(txt),"e")
 
+#PART 2 BOOKS
+
+books<-c("Gone Girl","The Girl on a Train","The Lost City of Z","Catch-22","Moby Dick","Hamlet")
+books
+
+top.three.books<-books[c(TRUE,TRUE,TRUE,FALSE,FALSE,FALSE)]
+top.three.books
+
+book.reviews<-"is a great read!"
+book.reviews
+
+paste(books,book.reviews,collapse = " ")
+
+books.without.four<-books[c(TRUE,TRUE,TRUE,FALSE,TRUE,TRUE)]
+books.without.four
+
+nchar(books)
+long.titles<-books[c(FALSE,TRUE,TRUE,FALSE,FALSE,FALSE)]
+long.titles
+
